@@ -10,10 +10,12 @@ The general pipeline is outlined below:
 - The flows are run on GKE.
 - The results of the experiments are recorded using mlflow, and the best performing model is saved and registered.
 - The best performing model is used to score incoming data in batches.
-- The model is monitored for drift and performance via a script.
+- The model is monitored for drift and performance via a script. R2 and Kolmogorov–Smirnov test are used as metrics.
 
 The pipeline is deployed using GCP.
 
 Results:
 
 The best model was a random forest with 100 trees and depth 5. This model had a training r2 of approximately 0.49.
+
+<img width="835" alt="pipeline" src="https://github.com/user-attachments/assets/22a0baa8-18ad-4780-b498-3e4dad665d4e">
