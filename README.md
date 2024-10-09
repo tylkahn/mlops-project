@@ -18,4 +18,5 @@ Results:
 
 The best model was a random forest with 100 trees and depth 5. This model had a training r2 of approximately 0.49.
 
-<img width="835" alt="pipeline" src="https://github.com/user-attachments/assets/22a0baa8-18ad-4780-b498-3e4dad665d4e">
+<img width="855" alt="pipeline" src="https://github.com/user-attachments/assets/0699936a-bf28-43c1-b3eb-3426478a3c3a">
+
